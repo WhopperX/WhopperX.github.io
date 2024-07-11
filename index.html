@@ -8,10 +8,54 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <nav>
-
-    </nav>
     <header>
+        <nav class="navbar navbar-expand-lg bg-transparent fixed-top mb-2">
+            <div class="container px-4 text-middle">
+                <a class="navbar-brand text-light" href="#"><img src="./assets/img/viajes.svg" id="logo-top"/><span class="align-middle">Viajes Chile</span></a>
+                <button class="navbar-toggler navbar-dark border-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="#">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="#">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </header>
     <div id="pres">
     </div>
